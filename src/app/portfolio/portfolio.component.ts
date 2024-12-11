@@ -6,11 +6,12 @@ import { PopularTagsComponent } from "./popular-tags/popular-tags.component";
 import { RecentPostComponent } from "./recent-post/recent-post.component";
 import { FooterComponent } from "./footer/footer.component";
 import { BackToTopComponent } from "./back-to-top/back-to-top.component";
+import { TopicsComponent } from "./topics/topics.component";
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [HeaderComponent, HeroComponent, FeaturedComponent, PopularTagsComponent, RecentPostComponent, FooterComponent, BackToTopComponent],
+  imports: [HeaderComponent, HeroComponent, FeaturedComponent, PopularTagsComponent, RecentPostComponent, FooterComponent, BackToTopComponent, TopicsComponent],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss'
 })
