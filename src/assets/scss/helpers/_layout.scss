@@ -1,4 +1,6 @@
 @import "./variables";
+@import "./_base";
+
 .container-layout {
   max-width: 968px;
   width: calc(100% - 3rem);
