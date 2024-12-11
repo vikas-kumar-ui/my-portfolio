@@ -1,0 +1,26 @@
+@import './variables';
+
+// Active menu link
+.active-link {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -0.75rem;
+    left: 45%;
+    width: 5px;
+    height: 5px;
+    background-color: $title-color;
+    border-radius: 50%;
+  }
+}
+
+// Header
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $body-color;
+}
