@@ -1,0 +1,67 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap");
+
+
+/** Font family */
+$fontFamily-noto_sans: "Noto Sans", sans-serif;
+
+/** Font size */
+$fontSize-1: 2.9rem;
+$fontSize-2: 2rem;
+$fontSize-3: 1.8rem;
+$fontSize-4: 1.6rem;
+$fontSize-5: 1.5rem;
+$fontSize-6: 1.4rem;
+$fontSize-7: 1.2rem;
+$fontSize-8: 1.3rem;
+
+/** Font weight */
+$weight-medium: 500;
+$weight-semiBold: 600;
+$weight-bold: 700;
+$weight-extraBold: 800;
+
+/** Line height */
+$lineHeight-1: 1.3;
+$lineHeight-2: 1.5;
+$lineHeight-4: 1.5;
+
+/**
+   * BORDER RADIUS
+   */
+
+$radius-6: 6px;
+$radius-8: 8px;
+$radius-16: 16px;
+$radius-48: 48px;
+$radius-circle: 50%;
+$radius-pill: 200px;
+
+/** SPACING */
+$section-padding: 70px;
+
+/** TRANSITION */
+
+$transition-1: 0.25s ease;
+$transition-2: 0.5s ease;
+$cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
+$cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
+
+
+/* Margins */
+$mb-0: 0;
+$mb-1: 0.5rem;
+$mb-2: 1rem;
+$mb-3: 1.3rem;
+$mb-4: 1.5rem;
+$mb-5: 2rem;
+$mb-6: 2.5rem;
+$mb-7: 3rem;
+$mb-8: 4.4rem;
+
+/* Gaps */
+$g-0:0;
+$g-1:10px;
+$g-2:20px;
+$g-3:30px;
+$g-4:40px;
