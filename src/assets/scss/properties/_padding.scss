@@ -1,0 +1,7 @@
+@for $i from 1 through 20 {
+  .pad-#{$i*4}  {
+    padding: calc(#{$i*4}px);
+    // width: calc(#{$i}% + 0px);
+    // border: 1px solid #f99;
+  }
+}

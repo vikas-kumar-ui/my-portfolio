@@ -1,7 +1,14 @@
-@import "helpers/base";
+@import "variables";
+
+@import "./properties/padding";
+@import "./properties/margin";
+
 @import "helpers/color";
-@import "helpers/components";
-@import "helpers/home";
-@import "helpers/layout";
+@import "helpers/base";
+@import "./container";
+@import "helpers/common";
+
+@import "./components/component-structure.scss";
+
 @import "helpers/responsive";
-@import "helpers/variables";
+

@@ -1,0 +1,63 @@
+.feature {
+    .container {
+      .feature-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        .feature-card {
+          padding: 20px;
+          border-radius: $radius-16;
+          transition: $transition-1;
+          &:is(:hover, :focus-within) {
+            transform: translateY(-5px);
+          }
+          .card-banner {
+            border-radius: $radius-16;
+          }
+          .card-content {
+            .card-wrapper {
+              margin-block-start: 24px;
+  
+              .profile-card :is(.card-title, .card-subtitle) {
+                color: $text-slate-gray;
+                .card-title {
+                  font-weight: $weight-bold;
+                  .card-subtitle,
+                  .feature .card-wrapper .card-btn {
+                    font-size: $fontSize-6;
+                  }
+                }
+              }
+              .card-btn {
+                position: relative;
+                color: $text-wild-blue-yonder;
+                z-index: 1;
+                &::before {
+                  content: "";
+                  position: absolute;
+                  top: -13px;
+                  left: -20px;
+                  width: 48px;
+                  height: 48px;
+                  background-color: $bg-oxford-blue-2;
+                  border-radius: $radius-circle;
+                  z-index: -1;
+                }
+              }
+              &:last-child {
+                font-size: $fontSize-4;
+                margin-block-end: 0;
+              }
+            }
+          }
+        }
+      }
+      .btn {
+        margin-inline: auto;
+        margin-block-start: 30px;
+      }
+    }
+    .feature-bg {
+      display: none;
+    }
+  }
